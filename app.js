@@ -34,12 +34,6 @@ const starsDiv = document.querySelector(".star-rating");
     //   starsDiv.classList.remove("star-1", "star-2", "star-3", "star-4");
     // }
   });
-
-  starsDiv.addEventListener("mouseleave", () => {
-    for (let j = 1; j <= 5; j++) {
-      starsDiv.classList.remove(`star-${j}`);
-    }
-  });
 });
 
 starsDiv.addEventListener("mouseleave", () => {
